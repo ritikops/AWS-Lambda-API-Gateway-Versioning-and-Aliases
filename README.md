@@ -132,6 +132,7 @@ You have successfully set up an AWS Lambda function with API Gateway, implemente
 
 ## Troubleshooting
 ### Issue: `Missing Authentication Token`
+- Ensure to apply correct URL Path
 - Ensure you are using the correct HTTP method.
 - Recreate API Gateway methods if necessary.
 - Check API Gateway logs in **CloudWatch**.
